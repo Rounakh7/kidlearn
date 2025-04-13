@@ -3,15 +3,14 @@ import { getAuth } from 'firebase/auth';
 import { getDatabase } from 'firebase/database'; // <-- Import Realtime Database
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB5bMKw1y39IEQ_5SbI8nZu10OuHzb8aCc",
-    authDomain: "excel-a3fc8.firebaseapp.com",
-    databaseURL: "https://excel-a3fc8-default-rtdb.firebaseio.com",
-    projectId: "excel-a3fc8",
-    storageBucket: "excel-a3fc8.firebasestorage.app",
-    messagingSenderId: "940123719094",
-    appId: "1:940123719094:web:b971300ddbf21673c22d17",
-    measurementId: "G-M6MR18GFLG"
-  };
+  apiKey: "AIzaSyAMpsTQWR00MgHtI_uochFOERZUPRAXOp8",
+  authDomain: "kidlearn-8d97f.firebaseapp.com",
+  projectId: "kidlearn-8d97f",
+  storageBucket: "kidlearn-8d97f.firebasestorage.app",
+  messagingSenderId: "683745062409",
+  appId: "1:683745062409:web:0e2482cf90de853bb492d8",
+  measurementId: "G-SE7QZ1VY3V"
+};
   
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
